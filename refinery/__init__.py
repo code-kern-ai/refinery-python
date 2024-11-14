@@ -287,7 +287,7 @@ class Client:
 
         FILE_TYPE = "records"
         # config
-        config_url = settings.get_base_config(self.project_id)
+        config_url = settings.get_full_config(self.project_id)
         config_api_response = api_calls.get_request(
             config_url,
             self.session_token,

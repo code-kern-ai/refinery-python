@@ -54,8 +54,8 @@ def get_associations_url(project_id: str) -> str:
     return f"{get_project_url(project_id)}/associations"
 
 
-def get_base_config(project_id: str) -> str:
-    return f"{get_project_url(project_id)}/import/base_config"
+def get_full_config(project_id: str) -> str:
+    return f"{get_project_url(project_id)}/import/full_config"
 
 
 def get_task(project_id: str, task_id: str) -> str:
